@@ -1,0 +1,1565 @@
+{
+  "title": "北海道・小樽",
+  "overview": {
+    "center": [
+      141.006,
+      43.187
+    ],
+    "span": 30800,
+    "depth": 14000
+  },
+  "areas": [
+    {
+      "id": "canal",
+      "names": {
+        "zh-Hant": "運河",
+        "ja": "運河",
+        "en": "Canal"
+      },
+      "view": {
+        "center": [
+          141.00152,
+          43.2006
+        ],
+        "span": 940,
+        "depth": 865
+      },
+      "marker": [
+        141.0014,
+        43.2004
+      ],
+      "stops": [
+        "asakusa",
+        "chuo",
+        "warehouse",
+        "north"
+      ],
+      "mode": "walk",
+      "minutes": 20,
+      "segments": [
+        [
+          [
+            141.00318,
+            43.19791
+          ],
+          [
+            141.003106,
+            43.197936
+          ],
+          [
+            141.002982,
+            43.197929
+          ],
+          [
+            141.00272,
+            43.19819
+          ],
+          [
+            141.002445,
+            43.19848
+          ],
+          [
+            141.002188,
+            43.19883
+          ],
+          [
+            141.001959,
+            43.19914
+          ],
+          [
+            141.001712,
+            43.1995
+          ],
+          [
+            141.001503,
+            43.199866
+          ],
+          [
+            141.001388,
+            43.199899
+          ],
+          [
+            141.001353,
+            43.200038
+          ]
+        ],
+        [
+          [
+            141.001353,
+            43.200038
+          ],
+          [
+            141.001267,
+            43.20016
+          ],
+          [
+            141.001103,
+            43.20011
+          ],
+          [
+            141.000909,
+            43.200071
+          ],
+          [
+            141.000776,
+            43.200321
+          ],
+          [
+            141.00074,
+            43.200455
+          ]
+        ],
+        [
+          [
+            141.00074,
+            43.200455
+          ],
+          [
+            141.000847,
+            43.200521
+          ],
+          [
+            141.001044,
+            43.200566
+          ],
+          [
+            141.0011128,
+            43.2005371
+          ],
+          [
+            141.0005405,
+            43.2017768
+          ],
+          [
+            141.0004071,
+            43.2020443
+          ],
+          [
+            141.0003751,
+            43.2021252
+          ],
+          [
+            141.000343,
+            43.2021229
+          ],
+          [
+            141.0003147,
+            43.2021833
+          ],
+          [
+            141.0002833,
+            43.2022519
+          ],
+          [
+            141.000121,
+            43.2025726
+          ],
+          [
+            141.00012,
+            43.2026425
+          ],
+          [
+            140.9998112,
+            43.2030321
+          ],
+          [
+            140.999804,
+            43.20327
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "sakai",
+      "names": {
+        "zh-Hant": "堺町・南小樽",
+        "ja": "堺町・南小樽",
+        "en": "Sakaimachi & South Otaru"
+      },
+      "view": {
+        "center": [
+          141.0045,
+          43.19408
+        ],
+        "span": 1000,
+        "depth": 1060
+      },
+      "marker": [
+        141.0078,
+        43.191
+      ],
+      "stops": [
+        "art-base",
+        "kitaichi",
+        "music-box"
+      ],
+      "mode": "walk",
+      "segments": [
+        [
+          [
+            141.0013384,
+            43.1976458
+          ],
+          [
+            141.00158,
+            43.19743
+          ],
+          [
+            141.00213,
+            43.19685
+          ],
+          [
+            141.00258,
+            43.196276
+          ],
+          [
+            141.002895,
+            43.19605
+          ],
+          [
+            141.003561,
+            43.195716
+          ],
+          [
+            141.005036,
+            43.195024
+          ],
+          [
+            141.005575,
+            43.19478
+          ],
+          [
+            141.006115,
+            43.194287
+          ],
+          [
+            141.006783,
+            43.193139
+          ],
+          [
+            141.007043,
+            43.192364
+          ],
+          [
+            141.0073169,
+            43.1923093
+          ]
+        ],
+        [
+          [
+            141.0073169,
+            43.1923093
+          ],
+          [
+            141.007043,
+            43.192364
+          ],
+          [
+            141.007161,
+            43.191552
+          ],
+          [
+            141.007246,
+            43.19106
+          ],
+          [
+            141.007507,
+            43.190668
+          ],
+          [
+            141.007792,
+            43.1905785
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "shukutsu",
+      "names": {
+        "zh-Hant": "祝津",
+        "ja": "祝津",
+        "en": "Shukutsu"
+      },
+      "view": {
+        "center": [
+          141.01252,
+          43.23633
+        ],
+        "span": 1010,
+        "depth": 735
+      },
+      "marker": [
+        141.012,
+        43.23565
+      ],
+      "stops": [
+        "ibaraki-banya",
+        "aquarium",
+        "herring-mansion",
+        "shukutsu-view"
+      ],
+      "mode": "aerial",
+      "segments": [
+        [
+          [
+            141.01356,
+            43.23456
+          ],
+          [
+            141.01325,
+            43.23579
+          ],
+          [
+            141.0120998,
+            43.2369053
+          ]
+        ],
+        [
+          [
+            141.0120998,
+            43.2369053
+          ],
+          [
+            141.0139,
+            43.23654
+          ],
+          [
+            141.0157307,
+            43.2378263
+          ]
+        ],
+        [
+          [
+            141.0157307,
+            43.2378263
+          ],
+          [
+            141.0145,
+            43.2385
+          ],
+          [
+            141.0114,
+            43.23856
+          ],
+          [
+            141.0094945,
+            43.2381569
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "tengu",
+      "names": {
+        "zh-Hant": "市街・天狗山",
+        "ja": "市街・天狗山",
+        "en": "Downtown & Mt. Tengu"
+      },
+      "view": {
+        "center": [
+          140.984,
+          43.1848
+        ],
+        "span": 2850,
+        "depth": 3600
+      },
+      "marker": [
+        140.979,
+        43.1775
+      ],
+      "stops": [
+        "otaru-station",
+        "otaru-park",
+        "tenguyama"
+      ],
+      "mode": "aerial",
+      "segments": [
+        [
+          [
+            140.9938611,
+            43.1975556
+          ],
+          [
+            140.99465,
+            43.1939
+          ],
+          [
+            140.9918188,
+            43.1891965
+          ]
+        ],
+        [
+          [
+            140.9918188,
+            43.1891965
+          ],
+          [
+            140.983,
+            43.1854
+          ],
+          [
+            140.9751704,
+            43.1779003
+          ],
+          [
+            140.9721664,
+            43.1719793
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "east",
+      "names": {
+        "zh-Hant": "朝里・錢函",
+        "ja": "朝里・銭函",
+        "en": "Asari & Zenibako"
+      },
+      "view": {
+        "center": [
+          141.1002,
+          43.1409
+        ],
+        "span": 12100,
+        "depth": 5100
+      },
+      "marker": [
+        141.112,
+        43.1458
+      ],
+      "stops": [
+        "asari-onsen",
+        "asari-dam",
+        "hariusu",
+        "zenibako"
+      ],
+      "mode": "aerial",
+      "segments": [
+        [
+          [
+            141.040444,
+            43.145556
+          ],
+          [
+            141.0418,
+            43.13904
+          ],
+          [
+            141.042025,
+            43.133602
+          ]
+        ],
+        [
+          [
+            141.042025,
+            43.133602
+          ],
+          [
+            141.046,
+            43.151
+          ],
+          [
+            141.065,
+            43.168
+          ],
+          [
+            141.104,
+            43.161
+          ],
+          [
+            141.124251,
+            43.156806
+          ]
+        ],
+        [
+          [
+            141.124251,
+            43.156806
+          ],
+          [
+            141.143,
+            43.1491
+          ],
+          [
+            141.159675,
+            43.143656
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "west",
+      "names": {
+        "zh-Hant": "西海岸",
+        "ja": "西海岸",
+        "en": "West Coast"
+      },
+      "view": {
+        "center": [
+          140.904,
+          43.215
+        ],
+        "span": 10450,
+        "depth": 4300
+      },
+      "marker": [
+        140.882,
+        43.208
+      ],
+      "stops": [
+        "otamoi",
+        "shioya",
+        "oshorobay",
+        "ranshima"
+      ],
+      "mode": "aerial",
+      "segments": [
+        [
+          [
+            140.955,
+            43.229
+          ],
+          [
+            140.941,
+            43.2262
+          ],
+          [
+            140.929,
+            43.2205
+          ],
+          [
+            140.920585,
+            43.213381
+          ]
+        ],
+        [
+          [
+            140.920585,
+            43.213381
+          ],
+          [
+            140.91,
+            43.2192
+          ],
+          [
+            140.893,
+            43.214
+          ],
+          [
+            140.8705,
+            43.2115
+          ],
+          [
+            140.859361,
+            43.20918
+          ]
+        ],
+        [
+          [
+            140.859361,
+            43.20918
+          ],
+          [
+            140.8558,
+            43.206682
+          ],
+          [
+            140.853222,
+            43.199833
+          ]
+        ]
+      ]
+    }
+  ],
+  "photoCredits": {
+    "asakusa": {
+      "file": "asakusa.webp",
+      "title": "Otaru Canal HDR1.jpg",
+      "author": "Tan Wei Liang Byorn",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Otaru_Canal_HDR1.jpg",
+      "alt": {
+        "zh-Hant": "小樽運河藍調時刻，倉庫燈光倒映水面",
+        "ja": "薄暮の小樽運河に映る石造倉庫の明かり",
+        "en": "Stone warehouse lights reflected in Otaru Canal at blue hour"
+      }
+    },
+    "asakusa-day": {
+      "file": "asakusa-day.webp",
+      "title": "Otaru Canal Dusk in summer.jpg",
+      "author": "Sho Horiuchi",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Otaru_Canal_Dusk_in_summer.jpg",
+      "alt": {
+        "zh-Hant": "晴天時的小樽運河步道、煤氣燈與倉庫",
+        "ja": "晴れた日の運河散策路とガス灯、倉庫",
+        "en": "The canal promenade, gas lamps and warehouses on a sunny day"
+      }
+    },
+    "asakusa-night": {
+      "file": "asakusa-night.webp",
+      "title": "Otaru Canal Night.jpg",
+      "author": "Haha169",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Otaru_Canal_Night.jpg",
+      "alt": {
+        "zh-Hant": "冬夜運河旁積雪的倉庫與水面燈光",
+        "ja": "冬の運河に映る光と雪をかぶった倉庫",
+        "en": "Snow-covered warehouses and reflections on the canal at night"
+      }
+    },
+    "chuo": {
+      "file": "chuo.webp",
+      "title": "Otaru Canal Center.jpg",
+      "author": "Komatta",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "source": "https://commons.wikimedia.org/wiki/File:Otaru_Canal_Center.jpg"
+    },
+    "chuo-walk": {
+      "file": "chuo-walk.webp",
+      "title": "Otaru 20201005143809 (50865967637).jpg",
+      "author": "inunami",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Otaru_20201005143809_(50865967637).jpg",
+      "alt": {
+        "zh-Hant": "中央橋旁的石造階梯與水岸倉庫",
+        "ja": "中央橋近くの運河散策路と石造倉庫",
+        "en": "Canal-side stone steps and warehouses near Chūō Bridge"
+      }
+    },
+    "warehouse": {
+      "file": "warehouse.webp",
+      "title": "旧小樽倉庫（2024年運河プラザ時代）.jpg",
+      "author": "CoFfwqtv",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%E6%97%A7%E5%B0%8F%E6%A8%BD%E5%80%89%E5%BA%AB%EF%BC%882024%E5%B9%B4%E9%81%8B%E6%B2%B3%E3%83%97%E3%83%A9%E3%82%B6%E6%99%82%E4%BB%A3%EF%BC%89.jpg"
+    },
+    "warehouse-roofs": {
+      "file": "warehouse-roofs.webp",
+      "title": "Former Otaru Warehouse01n.jpg",
+      "author": "663highland",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Former_Otaru_Warehouse01n.jpg",
+      "alt": {
+        "zh-Hant": "積雪的舊小樽倉庫屋頂與後方山景",
+        "ja": "雪の積もった旧小樽倉庫の屋根と背後の山",
+        "en": "Snow-covered roofs of the former Otaru Warehouse and the hills behind"
+      }
+    },
+    "north": {
+      "file": "north.webp",
+      "title": "小樽運河 - panoramio (9).jpg",
+      "author": "くろふね",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%A8%BD%E9%81%8B%E6%B2%B3_-_panoramio_(9).jpg"
+    },
+    "kitaichi": {
+      "file": "kitaichi.webp",
+      "title": "Kitaichi glass.JPG",
+      "author": "欅",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Kitaichi_glass.JPG",
+      "alt": {
+        "zh-Hant": "堺町通上的北一硝子三號館與鄰接建物",
+        "ja": "堺町通りにある北一硝子三号館と隣接する建物",
+        "en": "Kitaichi Glass No. 3 and the adjoining building on Sakaimachi Street"
+      }
+    },
+    "music-box": {
+      "file": "music-box.webp",
+      "title": "Otaru Music Box Museum 2014.jpg",
+      "author": "Wpcpey",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Otaru_Music_Box_Museum_2014.jpg",
+      "alt": {
+        "zh-Hant": "童話十字路口的小樽音樂盒堂本館",
+        "ja": "メルヘン交差点に建つ小樽オルゴール堂本館",
+        "en": "Otaru Music Box Museum Main Hall at the Marchen Crossroads"
+      }
+    },
+    "art-base": {
+      "file": "art-base.webp",
+      "title": "220721 Former Mitsui Bank Otaru Branch Otaru Hokkaido Japan03s3.jpg",
+      "author": "663highland",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:220721_Former_Mitsui_Bank_Otaru_Branch_Otaru_Hokkaido_Japan03s3.jpg",
+      "alt": {
+        "zh-Hant": "舊三井銀行小樽支行的花崗岩外觀",
+        "ja": "旧三井銀行小樽支店の花崗岩の外観",
+        "en": "Granite exterior of the former Mitsui Bank Otaru Branch"
+      }
+    },
+    "otaru-station": {
+      "file": "otaru-station.webp",
+      "title": "Otaru Station 20220626.jpg",
+      "author": "皓月旗",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Otaru_Station_20220626.jpg",
+      "alt": {
+        "zh-Hant": "JR 小樽站的對稱站房外觀",
+        "ja": "左右対称の外観を持つJR小樽駅舎",
+        "en": "The symmetrical facade of JR Otaru Station"
+      }
+    },
+    "tenguyama": {
+      "file": "tenguyama.webp",
+      "title": "Otaru from Tenguyama.JPG",
+      "author": "Soica2001",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "source": "https://commons.wikimedia.org/wiki/File:Otaru_from_Tenguyama.JPG",
+      "alt": {
+        "zh-Hant": "從天狗山俯瞰小樽市區、港口和石狩灣",
+        "ja": "天狗山から望む小樽市街と港、石狩湾",
+        "en": "Otaru city, the harbor, and Ishikari Bay viewed from Mount Tengu"
+      }
+    },
+    "otaru-park": {
+      "file": "otaru-park.webp",
+      "title": "Former Otaru District Auditorium 20170815.jpg",
+      "author": "Tobosha",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "source": "https://commons.wikimedia.org/wiki/File:Former_Otaru_District_Auditorium_20170815.jpg",
+      "alt": {
+        "zh-Hant": "小樽公園旁的舊小樽區公會堂木造建築",
+        "ja": "小樽公園にある旧小樽区公会堂の木造建築",
+        "en": "Wooden Former Otaru District Meeting Hall at Otaru Park"
+      }
+    },
+    "ibaraki-banya": {
+      "file": "ibaraki-banya.webp",
+      "title": "茨木家中出張番屋.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%E8%8C%A8%E6%9C%A8%E5%AE%B6%E4%B8%AD%E5%87%BA%E5%BC%B5%E7%95%AA%E5%B1%8B.jpg",
+      "author": "皓月旗",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "alt": {
+        "zh-Hant": "祝津的舊茨木家漁工宿舍外觀",
+        "ja": "祝津の旧茨木家中出張番屋の外観",
+        "en": "Exterior of the former Ibaraki herring bunkhouse in Shukutsu"
+      }
+    },
+    "aquarium": {
+      "file": "aquarium.webp",
+      "title": "Otaru aquarium 201909.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Otaru_aquarium_201909.jpg",
+      "author": "切干大根",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "alt": {
+        "zh-Hant": "小樽水族館入口正面",
+        "ja": "おたる水族館の正面入口",
+        "en": "Front entrance of Otaru Aquarium"
+      }
+    },
+    "herring-mansion": {
+      "file": "herring-mansion.webp",
+      "title": "Shukutsu,Otaru 20220625.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Shukutsu,Otaru_20220625.jpg",
+      "author": "皓月旗",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "alt": {
+        "zh-Hant": "祝津高島岬上的小樽市鯡魚御殿",
+        "ja": "祝津・高島岬に建つ小樽市鰊御殿",
+        "en": "Otaru Herring Mansion on Cape Takashima in Shukutsu"
+      }
+    },
+    "shukutsu-view": {
+      "file": "shukutsu-view.webp",
+      "title": "Shukutsu,Otaru 20220626 P2.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Shukutsu,Otaru_20220626_P2.jpg",
+      "author": "皓月旗",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "alt": {
+        "zh-Hant": "祝津全景展望台所見風景",
+        "ja": "祝津パノラマ展望台からの風景",
+        "en": "View from the Shukutsu Panorama Observatory"
+      }
+    },
+    "asari-onsen": {
+      "file": "asari-onsen.webp",
+      "title": "130824 Asarigawa Onsen Otaru Hokkaido Japan07s3.jpg",
+      "author": "663highland",
+      "license": "CC BY 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:130824_Asarigawa_Onsen_Otaru_Hokkaido_Japan07s3.jpg",
+      "alt": {
+        "zh-Hant": "朝里川溫泉的森林露天浴池",
+        "ja": "朝里川温泉の緑に囲まれた露天風呂",
+        "en": "An outdoor bath surrounded by trees at Asarigawa Onsen"
+      }
+    },
+    "asari-dam": {
+      "file": "asari-dam.webp",
+      "title": "朝里ダム - panoramio.jpg",
+      "author": "hasano_jp",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%E6%9C%9D%E9%87%8C%E3%83%80%E3%83%A0_-_panoramio.jpg",
+      "alt": {
+        "zh-Hant": "奧塔魯奈湖、朝里大壩及湖畔草坡",
+        "ja": "オタルナイ湖と朝里ダム、湖畔の緑地",
+        "en": "A grassy lakeshore looking across Lake Otarunai toward Asari Dam"
+      }
+    },
+    "zenibako": {
+      "file": "zenibako.webp",
+      "title": "JR Hakodate-Main-Line Zenibako Station building.jpg",
+      "author": "Mister0124",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:JR_Hakodate-Main-Line_Zenibako_Station_building.jpg",
+      "alt": {
+        "zh-Hant": "函館本線錢函站的站房正面",
+        "ja": "函館本線銭函駅の駅舎正面",
+        "en": "The station building at Zenibako on the Hakodate Main Line"
+      }
+    },
+    "shioya": {
+      "file": "shioya.webp",
+      "title": "Rute 5 - panoramio.jpg",
+      "author": "t-konno",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Rute_5_-_panoramio.jpg",
+      "alt": {
+        "zh-Hant": "從文庫歌附近眺望鹽谷一帶海岸與海浪",
+        "ja": "文庫歌付近から望む塩谷周辺の海岸と波",
+        "en": "Waves along the coast near Bungata in the Shioya area"
+      }
+    },
+    "oshorobay": {
+      "file": "oshorobay.webp",
+      "title": "小樽の西のマリーナ - panoramio.jpg",
+      "author": "hasano_jp",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%A8%BD%E3%81%AE%E8%A5%BF%E3%81%AE%E3%83%9E%E3%83%AA%E3%83%BC%E3%83%8A_-_panoramio.jpg",
+      "alt": {
+        "zh-Hant": "忍路灣內停泊的小船和兩側的林木山岬",
+        "ja": "忍路湾に係留された小舟と両側の緑の岬",
+        "en": "Small boats moored in Oshoro Bay between wooded headlands"
+      }
+    },
+    "ranshima": {
+      "file": "ranshima.webp",
+      "title": "Ranshima beach.JPG",
+      "author": "禁樹なずな",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Ranshima_beach.JPG",
+      "alt": {
+        "zh-Hant": "從岸邊看蘭島沙灘、海灣及遠方岬角",
+        "ja": "蘭島の砂浜と海、遠くの岬を海岸から見た風景",
+        "en": "Ranshima’s sandy beach, open water and a distant headland"
+      }
+    },
+    "hariusu": {
+      "file": "hariusu.webp",
+      "title": "小樽恵比須島.JPG",
+      "author": "ダブルで",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "source": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%A8%BD%E6%81%B5%E6%AF%94%E9%A0%88%E5%B3%B6.JPG",
+      "alt": {
+        "zh-Hant": "小樽張碓海岸的惠比須島與周圍海面",
+        "ja": "小樽市張碓海岸の恵比須島と周囲の海",
+        "en": "Ebisu Island and the surrounding waters off the Hariusu coast of Otaru"
+      }
+    },
+    "otamoi": {
+      "file": "otamoi.webp",
+      "title": "オタモイ（Otamoi coast） - panoramio.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%E3%82%AA%E3%82%BF%E3%83%A2%E3%82%A4%EF%BC%88Otamoi_coast%EF%BC%89_-_panoramio.jpg",
+      "author": "pakku",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "alt": {
+        "zh-Hant": "小樽奧塔莫伊海岸上的海蝕斷崖",
+        "ja": "小樽のオタモイ海岸にそびえる海食崖",
+        "en": "A sea cliff on Otamoi Coast in Otaru"
+      }
+    }
+  },
+  "stops": [
+    {
+      "id": "asakusa",
+      "coordinates": [
+        141.00318,
+        43.19791
+      ],
+      "thumbnail": "asakusa-thumb.webp",
+      "photos": [
+        "asakusa",
+        "asakusa-day"
+      ],
+      "nightPhoto": "asakusa-night",
+      "source": "https://www.city.otaru.lg.jp/docs/2020100900367",
+      "zh-Hant": {
+        "name": "淺草橋",
+        "type": "經典視角",
+        "subtitle": "石造倉庫與煤氣燈",
+        "story": "淺草橋是欣賞小樽運河的經典視角。運河於 1923 年完工，最初讓駁船接駁停泊在外海的大船。入夜後，沿岸石造倉庫和煤氣燈倒映水面，重現港町的夜色。"
+      },
+      "ja": {
+        "name": "浅草橋",
+        "type": "定番の眺め",
+        "subtitle": "石造倉庫とガス灯",
+        "story": "浅草橋は小樽運河を眺める定番の場所です。1923年に完成した運河は、沖合に停泊する大型船と陸との間をはしけで結びました。夜には石造倉庫とガス灯の明かりが水面に映ります。"
+      },
+      "en": {
+        "name": "Asakusa Bridge",
+        "type": "Classic viewpoint",
+        "subtitle": "Stone warehouses & gas lamps",
+        "story": "Asakusa Bridge offers one of the classic views of Otaru Canal. Completed in 1923, the canal served barges carrying cargo from larger ships anchored offshore. After dusk, the warehouse lights and gas lamps reflect in the water."
+      }
+    },
+    {
+      "id": "chuo",
+      "coordinates": [
+        141.001353,
+        43.200038
+      ],
+      "thumbnail": "chuo-thumb.webp",
+      "photos": [
+        "chuo",
+        "chuo-walk"
+      ],
+      "source": "https://otaru.gr.jp/project/otaru-harutabi-unga",
+      "zh-Hant": {
+        "name": "中央橋",
+        "type": "水岸散步",
+        "subtitle": "運河散策路",
+        "story": "從中央橋向南望，水道沿著舊海岸線緩緩轉彎。1986 年整建時，這段運河的一部分填為道路，岸邊同時闢建散策路和小廣場。過橋後向北走，仍可看見運河通往港灣的水路。"
+      },
+      "ja": {
+        "name": "中央橋",
+        "type": "水辺の散策",
+        "subtitle": "運河散策路",
+        "story": "中央橋から南を見ると、運河がかつての海岸線に沿って緩やかに曲がります。1986年の整備で一部が道路となり、水辺に散策路や街園が設けられました。橋から北に進むと、港につながる水路が見えます。"
+      },
+      "en": {
+        "name": "Chūō Bridge",
+        "type": "Waterfront walk",
+        "subtitle": "The canal promenade",
+        "story": "Looking south from Chūō Bridge, the canal gently curves along the old shoreline. During the 1986 redevelopment, part of the canal was filled for a road and a promenade with small plazas was built along the water. To the north, the canal opens toward the harbor."
+      }
+    },
+    {
+      "id": "warehouse",
+      "coordinates": [
+        141.00074,
+        43.200455
+      ],
+      "thumbnail": "warehouse-thumb.webp",
+      "photos": [
+        "warehouse",
+        "warehouse-roofs"
+      ],
+      "source": "https://www.city.otaru.lg.jp/docs/2020111400122/",
+      "zh-Hant": {
+        "name": "舊小樽倉庫",
+        "type": "歷史建築",
+        "subtitle": "小樽市綜合博物館運河館",
+        "story": "1893 年建成的舊小樽倉庫，如今有一部分作為小樽市綜合博物館運河館。館內用北前船模型、鯡魚漁具、老照片與地圖，呈現小樽如何從漁港發展為北海道的重要商港。"
+      },
+      "ja": {
+        "name": "旧小樽倉庫",
+        "type": "歴史的建造物",
+        "subtitle": "小樽市総合博物館 運河館",
+        "story": "1893年に建てられた旧小樽倉庫の一部は、現在の小樽市総合博物館運河館です。北前船の模型、ニシン漁の道具、古い写真や地図が、漁港から北海道を代表する商港へ発展したまちの歴史を伝えます。"
+      },
+      "en": {
+        "name": "Former Otaru Warehouse",
+        "type": "Historic building",
+        "subtitle": "Otaru Museum of History and Nature",
+        "story": "Part of the former warehouse, built in 1893, now houses the Otaru Museum of History and Nature. Model trading ships, herring-fishing equipment, old photographs and maps trace Otaru’s growth into one of Hokkaido’s most important commercial ports."
+      }
+    },
+    {
+      "id": "north",
+      "coordinates": [
+        140.999804,
+        43.20327
+      ],
+      "thumbnail": "north-thumb.webp",
+      "photos": [
+        "north"
+      ],
+      "source": "https://www.city.otaru.lg.jp/docs/2020101501006/",
+      "zh-Hant": {
+        "name": "北運河",
+        "type": "港町風景",
+        "subtitle": "舊北海製罐第三倉庫",
+        "story": "北運河保有約 40 公尺的原始水道寬度。對岸的舊北海製罐第三倉庫於 1924 年建成，利用升降設備搬貨，再以螺旋滑槽將貨物送到運河邊。站在岸邊，可以想像駁船往來的港口日常。"
+      },
+      "ja": {
+        "name": "北運河",
+        "type": "港の風景",
+        "subtitle": "旧北海製罐 第3倉庫",
+        "story": "北運河には、当初の約40メートルの水路幅が残っています。対岸の旧北海製罐第3倉庫は1924年に建てられ、荷物用エレベーターや運河へ荷を下ろすらせん状の滑り台が備えられていました。"
+      },
+      "en": {
+        "name": "North Canal",
+        "type": "Harbor scenery",
+        "subtitle": "Former Hokkai Seikan Warehouse No. 3",
+        "story": "The North Canal retains its original width of about 40 meters. Across the water, Hokkai Seikan’s Warehouse No. 3 was built in 1924 with freight lifts and a spiral chute that sent goods down to the canal. The view recalls the days of working barges."
+      }
+    },
+    {
+      "id": "art-base",
+      "coordinates": [
+        141.0013384,
+        43.1976458
+      ],
+      "thumbnail": "art-base-thumb.webp",
+      "photos": [
+        "art-base"
+      ],
+      "source": "https://www.nitorihd.co.jp/otaru-art-base/about/",
+      "zh-Hant": {
+        "name": "舊三井銀行小樽支行",
+        "type": "歷史建築",
+        "subtitle": "小樽藝術村",
+        "story": "這座昔日支行於 1927 年竣工，見證了色內銀行街的繁榮。外牆砌以花崗岩，屋簷下帶有植物紋飾。銀行於 2002 年停止營業，建築後來成為小樽藝術村的一部分。"
+      },
+      "ja": {
+        "name": "旧三井銀行小樽支店",
+        "type": "歴史的建造物",
+        "subtitle": "小樽芸術村",
+        "story": "1927年に完成した旧三井銀行小樽支店は、色内の銀行街の繁栄を今に伝えます。花崗岩の外壁と、軒の植物をかたどった装飾が見どころです。銀行は2002年に営業を終え、建物は小樽芸術村の一部となりました。"
+      },
+      "en": {
+        "name": "Former Mitsui Bank",
+        "type": "Historic architecture",
+        "subtitle": "Otaru Art Base",
+        "story": "Completed in 1927, this former branch recalls the prosperity of the Ironai banking district. Granite clads the exterior, and plant motifs decorate the eaves. The bank closed in 2002, and the building became part of Otaru Art Base."
+      }
+    },
+    {
+      "id": "kitaichi",
+      "coordinates": [
+        141.0073169,
+        43.1923093
+      ],
+      "thumbnail": "kitaichi-thumb.webp",
+      "photos": [
+        "kitaichi"
+      ],
+      "source": "https://kitaichiglass.co.jp/ayumi/",
+      "zh-Hant": {
+        "name": "北一硝子三號館",
+        "type": "玻璃工藝",
+        "subtitle": "明治倉庫與煤油燈",
+        "story": "三號館原為 1891 年興建的木構石砌倉庫，後來改用於展示小樽的玻璃工藝。館內的北一廳以煤油燈照明，讓人想起電燈普及前，玻璃燈具曾是港町日常用品。"
+      },
+      "ja": {
+        "name": "北一硝子三号館",
+        "type": "ガラス工芸",
+        "subtitle": "明治の倉庫と石油ランプ",
+        "story": "三号館は1891年に建てられた木骨石張りの倉庫を活用しています。小樽のガラス工芸に触れられるほか、北一ホールでは石油ランプの明かりが、電気が普及する前の暮らしをしのばせます。"
+      },
+      "en": {
+        "name": "Kitaichi Glass No. 3",
+        "type": "Glassmaking",
+        "subtitle": "Meiji-era warehouse and oil lamps",
+        "story": "Kitaichi Glass No. 3 occupies a timber-framed, stone-clad warehouse dating to 1891. Oil lamps still illuminate Kitaichi Hall, recalling a time when glass lamps were an everyday necessity in the port city."
+      }
+    },
+    {
+      "id": "music-box",
+      "coordinates": [
+        141.007792,
+        43.1905785
+      ],
+      "thumbnail": "music-box-thumb.webp",
+      "photos": [
+        "music-box"
+      ],
+      "source": "https://www.otaru-orgel.co.jp/floorguide",
+      "zh-Hant": {
+        "name": "小樽音樂盒堂本館",
+        "type": "工藝與街景",
+        "subtitle": "童話十字路口的蒸氣鐘",
+        "story": "堺町通南端的本館，原是米穀商共成株式會社於 1915 年興建的總部。紅磚建築如今陳列各式音樂盒，門前的蒸氣鐘則以汽笛旋律為路口報時。"
+      },
+      "ja": {
+        "name": "小樽オルゴール堂本館",
+        "type": "工芸と街並み",
+        "subtitle": "メルヘン交差点の蒸気時計",
+        "story": "堺町通り南端に建つ本館は、米穀商の共成株式会社が1915年に建てた旧本社です。赤レンガの建物にはさまざまなオルゴールが並び、正面の蒸気時計が汽笛の旋律で時を知らせます。"
+      },
+      "en": {
+        "name": "Otaru Music Box Museum",
+        "type": "Crafts and streetscape",
+        "subtitle": "Steam clock at the Marchen Crossroads",
+        "story": "The Main Hall at the south end of Sakaimachi Street was built in 1915 as the headquarters of the Kyosei rice trading company. The brick building now houses music boxes, and the steam clock outside marks the time with a melody of whistles."
+      }
+    },
+    {
+      "id": "ibaraki-banya",
+      "coordinates": [
+        141.01356,
+        43.23456
+      ],
+      "source": "https://www.city.otaru.lg.jp/docs/2020112000413/",
+      "zh-Hant": {
+        "name": "舊茨木家漁工宿舍",
+        "type": "漁村歷史",
+        "subtitle": "祝津鯡魚漁業遺產",
+        "story": "這棟木造平房約於 1912 年建成，曾是祝津主要漁家之一茨木家供漁工住宿與作業的番屋。建築後來由當地居民推動修復，保留了鯡魚漁業興盛時漁村的生活空間。"
+      },
+      "ja": {
+        "name": "旧茨木家中出張番屋",
+        "type": "漁村の歴史",
+        "subtitle": "祝津に残るニシン漁の遺産",
+        "story": "1912年ごろに建てられた木造平屋で、祝津を代表する網元の一つ、茨木家の出張番屋でした。地域の人々の手で修復され、ニシン漁が盛んだったころの漁村の暮らしを伝えています。"
+      },
+      "en": {
+        "name": "Former Ibaraki Herring Banya",
+        "type": "Fishing heritage",
+        "subtitle": "A surviving Shukutsu fishery building",
+        "story": "This single-storey wooden bunkhouse was built around 1912 for the Ibaraki family, one of Shukutsu’s leading herring fishery operators. Local residents helped restore it, preserving a space where fishing crews once lived and worked."
+      },
+      "thumbnail": "ibaraki-banya-thumb.webp",
+      "photos": [
+        "ibaraki-banya"
+      ]
+    },
+    {
+      "id": "aquarium",
+      "coordinates": [
+        141.0120998,
+        43.2369053
+      ],
+      "source": "https://otaru-aq.jp/outline",
+      "zh-Hant": {
+        "name": "小樽水族館",
+        "type": "海洋生態",
+        "subtitle": "從北海道大博覽會發展而來",
+        "story": "水族館於 1958 年以北海道大博覽會「海的會場」的一部分開幕，隔年成為小樽市立水族館。祝津的岬角與海濱是這座水族館的背景，館區沿著岸邊展開。"
+      },
+      "ja": {
+        "name": "おたる水族館",
+        "type": "海の生きもの",
+        "subtitle": "北海道大博覧会から始まった水族館",
+        "story": "1958年に北海道大博覧会の「海の会場」として誕生し、翌年に小樽市立水族館となりました。祝津の岬と海を背景に、岸辺に沿って施設が広がります。"
+      },
+      "en": {
+        "name": "Otaru Aquarium",
+        "type": "Marine life",
+        "subtitle": "From the Hokkaido Grand Exposition",
+        "story": "The aquarium opened in 1958 as part of the Hokkaido Grand Exposition’s marine venue. It became Otaru’s municipal aquarium the following year. The facilities extend along the shoreline beneath the Shukutsu headland."
+      },
+      "thumbnail": "aquarium-thumb.webp",
+      "photos": [
+        "aquarium"
+      ]
+    },
+    {
+      "id": "herring-mansion",
+      "coordinates": [
+        141.0157307,
+        43.2378263
+      ],
+      "source": "https://www.city.otaru.lg.jp/docs/2022022500038/",
+      "zh-Hant": {
+        "name": "小樽市鯡魚御殿",
+        "type": "歷史建築",
+        "subtitle": "從泊村遷至祝津的舊田中家主屋",
+        "story": "這座主屋於 1897 年在泊村落成，1958 年遷建至高島岬。漁業經營者與漁工各有入口，共住在同一棟建築裡。屋頂的排煙天窗也是鯡魚漁業建築的典型設計。"
+      },
+      "ja": {
+        "name": "小樽市鰊御殿",
+        "type": "歴史的建造物",
+        "subtitle": "泊村から移築された旧田中家の主屋",
+        "story": "1897年に泊村で建てられた主屋を、1958年に高島岬へ移築しました。漁場の親方と漁夫が一つの建物で暮らし、それぞれ別の玄関を使いました。煙出しを兼ねた屋根の天窓も漁場建築の特徴です。"
+      },
+      "en": {
+        "name": "Otaru Herring Mansion",
+        "type": "Historic architecture",
+        "subtitle": "A former fishery house moved from Tomari",
+        "story": "Built in Tomari in 1897, the former Tanaka family’s fishery house was moved to Cape Takashima in 1958. The fishery owner and crew shared the building but used separate entrances. A roof opening also functioned as a smoke vent."
+      },
+      "thumbnail": "herring-mansion-thumb.webp",
+      "photos": [
+        "herring-mansion"
+      ]
+    },
+    {
+      "id": "shukutsu-view",
+      "coordinates": [
+        141.0094945,
+        43.2381569
+      ],
+      "source": "https://www.city.otaru.lg.jp/docs/2020100900664/",
+      "zh-Hant": {
+        "name": "祝津全景展望台",
+        "type": "海岸展望",
+        "subtitle": "日本海與高島岬",
+        "story": "站在約海拔 71 公尺的展望台，可遠眺赤岩一帶的海崖、高島岬的日和山燈塔，以及小樽市鯡魚御殿。這處展望台位於二世古積丹小樽海岸國定公園內，也是觀賞日出與夕陽的地點。"
+      },
+      "ja": {
+        "name": "祝津パノラマ展望台",
+        "type": "海岸の展望",
+        "subtitle": "日本海と高島岬",
+        "story": "標高約71メートルの高台から、赤岩方面の断崖、高島岬の日和山灯台、小樽市鰊御殿を見渡せます。ニセコ積丹小樽海岸国定公園内にあり、朝日や夕日を眺める場所としても知られています。"
+      },
+      "en": {
+        "name": "Shukutsu Panorama Observatory",
+        "type": "Coastal viewpoint",
+        "subtitle": "Sea of Japan and Cape Takashima",
+        "story": "From this lookout about 71 metres above sea level, you can see the Akaiwa cliffs, Hiyoriyama Lighthouse and Otaru Herring Mansion on Cape Takashima. The lookout lies within the Niseko-Shakotan-Otaru Kaigan Quasi-National Park and is known for sunrise and sunset views."
+      },
+      "thumbnail": "shukutsu-view-thumb.webp",
+      "photos": [
+        "shukutsu-view"
+      ]
+    },
+    {
+      "id": "otaru-station",
+      "coordinates": [
+        140.9938611,
+        43.1975556
+      ],
+      "thumbnail": "otaru-station-thumb.webp",
+      "photos": [
+        "otaru-station"
+      ],
+      "source": "https://www.city.otaru.lg.jp/docs/2022030300071/",
+      "zh-Hant": {
+        "name": "JR 小樽站",
+        "type": "鐵道文化",
+        "subtitle": "1934 年的第三代站房",
+        "story": "小樽站現存站房是 1934 年完工的第三代建築。對稱的立面與中央入口帶有昭和初期的設計特色；站房與月台都已登錄為日本有形文化財。"
+      },
+      "ja": {
+        "name": "JR小樽駅",
+        "type": "鉄道文化",
+        "subtitle": "1934年に建てられた三代目駅舎",
+        "story": "現在の小樽駅舎は、1934年に完成した三代目の建物です。中央に入口を置いた左右対称の外観に、昭和初期の意匠が表れています。駅舎とプラットホームは国の登録有形文化財です。"
+      },
+      "en": {
+        "name": "JR Otaru Station",
+        "type": "Railway heritage",
+        "subtitle": "The third station building, built in 1934",
+        "story": "The current station building is the third on the site and dates to 1934. Its symmetrical facade and central entrance reflect early Shōwa design. The station building and platforms are registered tangible cultural properties in Japan."
+      }
+    },
+    {
+      "id": "otaru-park",
+      "coordinates": [
+        140.9918188,
+        43.1891965
+      ],
+      "thumbnail": "otaru-park-thumb.webp",
+      "photos": [
+        "otaru-park"
+      ],
+      "source": "https://www.city.otaru.lg.jp/docs/2020101500412/",
+      "zh-Hant": {
+        "name": "舊小樽區公會堂",
+        "type": "歷史建築",
+        "subtitle": "小樽公園與舊岡崎家能舞台",
+        "story": "這座和式木造建築於 1911 年興建，最初供後來的大正天皇以皇太子身分巡訪北海道時住宿，之後供公眾集會。建築遷入小樽公園一帶後，與同樣移築至此的舊岡崎家能舞台相鄰。"
+      },
+      "ja": {
+        "name": "旧小樽区公会堂",
+        "type": "歴史的建造物",
+        "subtitle": "小樽公園と旧岡崎家能舞台",
+        "story": "1911年、のちの大正天皇が皇太子として北海道を訪れた際の宿泊所として建てられ、その後は公会堂として使われました。小樽公園に移築された和風木造建築で、隣には旧岡崎家能舞台があります。"
+      },
+      "en": {
+        "name": "Former Otaru District Hall",
+        "type": "Historic architecture",
+        "subtitle": "Otaru Park and the Former Okazaki Noh Stage",
+        "story": "Built in 1911 to house the future Emperor Taishō on a visit to Hokkaido as crown prince, this wooden building later served as a public hall. It was moved to Otaru Park, where it stands beside the relocated Former Okazaki Noh Stage."
+      }
+    },
+    {
+      "id": "tenguyama",
+      "coordinates": [
+        140.9721664,
+        43.1719793
+      ],
+      "thumbnail": "tenguyama-thumb.webp",
+      "photos": [
+        "tenguyama"
+      ],
+      "source": "https://tenguyama.ckk.chuo-bus.co.jp/ropeway/",
+      "zh-Hant": {
+        "name": "天狗山展望台",
+        "type": "山景展望",
+        "subtitle": "俯瞰小樽港與石狩灣",
+        "story": "從天狗山的纜車山頂站可到多處展望台。白天可辨認小樽港與石狩灣的輪廓，天氣晴朗時還能遠眺積丹半島；入夜後，街道與港灣燈火沿著山腳鋪展。"
+      },
+      "ja": {
+        "name": "天狗山展望台",
+        "type": "山からの眺め",
+        "subtitle": "眼下に広がる小樽港と石狩湾",
+        "story": "天狗山ロープウエイの山頂駅から、複数の展望台へ足を運べます。日中は小樽港と石狩湾が見渡せ、晴れた日には積丹半島も望めます。夜には山の麓に街と港の明かりが広がります。"
+      },
+      "en": {
+        "name": "Mount Tengu Viewpoint",
+        "type": "Mountain panorama",
+        "subtitle": "Overlooking Otaru Harbor and Ishikari Bay",
+        "story": "Several viewpoints sit near the upper ropeway station. In daylight you can pick out Otaru Harbor and Ishikari Bay, and on clear days the Shakotan Peninsula. After dark the lights of the city and harbor spread out below the mountain."
+      }
+    },
+    {
+      "id": "asari-onsen",
+      "coordinates": [
+        141.040444,
+        43.145556
+      ],
+      "thumbnail": "asari-onsen-thumb.webp",
+      "photos": [
+        "asari-onsen"
+      ],
+      "source": "https://www.city.otaru.lg.jp/docs/2020100900107/",
+      "zh-Hant": {
+        "name": "朝里川溫泉",
+        "type": "溫泉山谷",
+        "subtitle": "三面環山的溫泉鄉",
+        "story": "朝里川溫泉位於小樽東南方，三面環山，有「小樽的後花園」之稱。溫泉旅館分布在朝里川谷地，露天浴池可望見周圍樹林。循河谷往上游可到朝里大壩與人工湖。"
+      },
+      "ja": {
+        "name": "朝里川温泉",
+        "type": "温泉郷",
+        "subtitle": "三方を山に囲まれた谷あい",
+        "story": "小樽の南東にある朝里川温泉は、三方を山に囲まれた「小樽の奥座敷」です。朝里川の谷に宿が点在し、露天風呂から周囲の緑を眺められます。上流には朝里ダムと人造湖があります。"
+      },
+      "en": {
+        "name": "Asarigawa Onsen",
+        "type": "Hot springs",
+        "subtitle": "A valley retreat among the mountains",
+        "story": "Asarigawa Onsen lies southeast of central Otaru, in a valley framed by mountains on three sides. Here, hot-spring inns dot the river valley, and outdoor baths look onto the trees. Farther upstream are Asari Dam and its reservoir."
+      }
+    },
+    {
+      "id": "asari-dam",
+      "coordinates": [
+        141.042025,
+        43.133602
+      ],
+      "thumbnail": "asari-dam-thumb.webp",
+      "photos": [
+        "asari-dam"
+      ],
+      "source": "https://www.city.otaru.lg.jp/docs/2020100900107/",
+      "zh-Hant": {
+        "name": "朝里大壩",
+        "type": "山間水庫",
+        "subtitle": "奧塔魯奈湖與環狀橋",
+        "story": "朝里大壩於 1993 年完工。壩體攔下朝里川形成水庫，湖名「奧塔魯奈」由市民徵名選出。河谷下方的朝里環狀橋以迴旋方式爬升，從溫泉街通往大壩一帶。"
+      },
+      "ja": {
+        "name": "朝里ダム",
+        "type": "山間のダム",
+        "subtitle": "オタルナイ湖とループ橋",
+        "story": "朝里ダムは1993年に完成しました。朝里川をせき止めてできた人造湖は、市民公募で「オタルナイ湖」と名づけられました。谷に架かる朝里スカイループは、温泉街からダム周辺へ向かう道の高低差をつないでいます。"
+      },
+      "en": {
+        "name": "Asari Dam",
+        "type": "Mountain reservoir",
+        "subtitle": "Lake Otarunai and the Asari Sky Loop",
+        "story": "Completed in 1993, Asari Dam holds back the Asari River to form a reservoir. Its name, Lake Otarunai, was chosen through a public naming call. The Asari Sky Loop curves up the valley on the road from the hot-spring area to the dam."
+      }
+    },
+    {
+      "id": "hariusu",
+      "coordinates": [
+        141.124251,
+        43.156806
+      ],
+      "thumbnail": "hariusu-thumb.webp",
+      "photos": [
+        "hariusu"
+      ],
+      "source": "https://www.city.otaru.lg.jp/docs/2020100900169/",
+      "zh-Hant": {
+        "name": "張碓・惠比須島",
+        "type": "岩岸景觀",
+        "subtitle": "石狩灣上的礁島",
+        "story": "惠比須島是張碓海岸的地標，也是小樽市鳥綠鳩會飛來的地方。北海道函館本線沿著石狩灣的斷崖與曲折海岸前進，從車窗能看到海岸風景的變化。"
+      },
+      "ja": {
+        "name": "張碓・恵比須島",
+        "type": "岩礁の景観",
+        "subtitle": "石狩湾に浮かぶ小島",
+        "story": "恵比須島は張碓海岸の目印で、小樽市の鳥アオバトが飛来することでも知られています。函館本線は石狩湾に沿って断崖や曲がりくねった海岸を通り、車窓から景色の移り変わりが楽しめます。"
+      },
+      "en": {
+        "name": "Hariusu · Ebisu Island",
+        "type": "Rocky coastline",
+        "subtitle": "A small island in Ishikari Bay",
+        "story": "Ebisu Island is a landmark on the Hariusu coast and a gathering place for white-bellied green pigeons, Otaru’s city bird. Trains on the Hakodate Main Line follow the cliffs and curves of Ishikari Bay, giving passengers changing views of the shoreline."
+      }
+    },
+    {
+      "id": "zenibako",
+      "coordinates": [
+        141.159675,
+        43.143656
+      ],
+      "thumbnail": "zenibako-thumb.webp",
+      "photos": [
+        "zenibako"
+      ],
+      "source": "https://www.city.otaru.lg.jp/docs/2020100900220/",
+      "zh-Hant": {
+        "name": "錢函站",
+        "type": "海岸鐵道",
+        "subtitle": "函館本線與石狩灣",
+        "story": "錢函站是小樽東側的函館本線車站，站屋的折線屋頂是地方地標。站後山丘上的豐足神社見證地方開拓，另一側則是面向石狩灣的海岸。這一帶過去以沿岸漁業為生，海上仍可遠眺高島岬。"
+      },
+      "ja": {
+        "name": "銭函駅",
+        "type": "海辺の鉄道",
+        "subtitle": "函館本線と石狩湾",
+        "story": "銭函駅は小樽東部にある函館本線の駅です。折れ曲がった屋根が特徴の駅舎は地区の目印です。駅裏の丘には開拓の歴史を伝える豊足神社があり、反対側には高島岬を望む石狩湾の海岸が広がります。"
+      },
+      "en": {
+        "name": "Zenibako Station",
+        "type": "Coastal railway",
+        "subtitle": "Hakodate Main Line and Ishikari Bay",
+        "story": "Zenibako Station serves eastern Otaru on the Hakodate Main Line. Its distinctive mansard roof is a neighborhood landmark. Toyotari Shrine stands on the hill behind the station, while the shoreline on the other side looks out across Ishikari Bay toward Cape Takashima."
+      }
+    },
+    {
+      "id": "otamoi",
+      "coordinates": [
+        140.955,
+        43.229
+      ],
+      "source": "https://www.city.otaru.lg.jp/docs/2025070800020/file_contents/2sho_20250730.pdf",
+      "thumbnail": "otamoi-thumb.webp",
+      "photos": [
+        "otamoi"
+      ],
+      "zh-Hant": {
+        "name": "奧塔莫伊海岸",
+        "type": "海岸景觀",
+        "subtitle": "海蝕斷崖與舊遊園地",
+        "story": "奧塔莫伊海岸面向日本海，海蝕斷崖與奇岩是這一帶的特色。昭和初期，這裡曾開設海濱遊園地，其中建在岬角上的龍宮閣於 1952 年毀於火災。小樽市的歷史資料記載，龍宮閣遺址的步道在 2006 年崩塌後禁止進入。"
+      },
+      "ja": {
+        "name": "オタモイ海岸",
+        "type": "海岸の景観",
+        "subtitle": "海食崖と遊園地の記憶",
+        "story": "日本海に面したオタモイ海岸は、海食崖と奇岩が特徴です。昭和初期には海辺の遊園地が造られ、岬に建っていた料亭の龍宮閣は1952年に焼失しました。小樽市の記録によると、跡地への散策路が2006年に崩落し、跡地は立入禁止となりました。"
+      },
+      "en": {
+        "name": "Otamoi Coast",
+        "type": "Coastal scenery",
+        "subtitle": "Sea cliffs and a former seaside resort",
+        "story": "Otamoi faces the Sea of Japan, where waves have carved steep cliffs and rock formations. A seaside amusement park stood here in the early Shōwa era. Its Ryūgūkaku restaurant, perched on a headland, burned down in 1952. Otaru’s city records note that access to the ruins was closed after the path collapsed in 2006."
+      }
+    },
+    {
+      "id": "shioya",
+      "coordinates": [
+        140.920585,
+        43.213381
+      ],
+      "thumbnail": "shioya-thumb.webp",
+      "photos": [
+        "shioya"
+      ],
+      "source": "https://www.city.otaru.lg.jp/docs/2020100900176/",
+      "zh-Hant": {
+        "name": "鹽谷海岸",
+        "type": "海岸景觀",
+        "subtitle": "黑砂與積丹半島遠景",
+        "story": "鹽谷灣一帶以含鐵砂的深色沙灘著名。沿岸可越過海面遠眺積丹半島，周圍也有岩壁與小漁港。鹽谷漁港曾因鯡魚漁業興盛，朝內陸可望見當地地標鹽谷丸山。"
+      },
+      "ja": {
+        "name": "塩谷海岸",
+        "type": "海岸風景",
+        "subtitle": "黒い砂浜と積丹半島",
+        "story": "塩谷湾は砂鉄を含む黒っぽい砂浜で知られています。海越しに積丹半島を望み、海岸には岩場や小さな漁港もあります。塩谷漁港はかつてニシン漁で栄え、内陸には地区の目印である塩谷丸山が見えます。"
+      },
+      "en": {
+        "name": "Shioya Coast",
+        "type": "Coastal scenery",
+        "subtitle": "Dark sand and views toward Shakotan",
+        "story": "Shioya Bay is known for dark sand containing iron-rich grains. The coastline looks across the sea toward the Shakotan Peninsula and includes rocky stretches and a small fishing port. Shioya once prospered from herring fishing, and Mount Shioya Maruyama rises inland."
+      }
+    },
+    {
+      "id": "oshorobay",
+      "coordinates": [
+        140.859361,
+        43.20918
+      ],
+      "thumbnail": "oshorobay-thumb.webp",
+      "photos": [
+        "oshorobay"
+      ],
+      "source": "https://www.city.otaru.lg.jp/docs/2020100900190/",
+      "zh-Hant": {
+        "name": "忍路灣",
+        "type": "漁港風景",
+        "subtitle": "岬角環繞的小海灣",
+        "story": "忍路灣由岬角環抱，港內水面較平靜。小樽市將它列為代表景觀，尤其值得留意夕陽在山岬與水面上變換的色彩。周邊也保留忍路環狀列石等考古遺址。"
+      },
+      "ja": {
+        "name": "忍路湾",
+        "type": "漁港風景",
+        "subtitle": "岬に囲まれた入り江",
+        "story": "忍路湾は岬に囲まれた入り江で、港内の水面は穏やかです。小樽市が選んだ代表的な景観の一つで、夕暮れには岬と水面の色が刻々と変わります。周辺には忍路環状列石などの遺跡も残っています。"
+      },
+      "en": {
+        "name": "Oshoro Bay",
+        "type": "Fishing harbor",
+        "subtitle": "A sheltered inlet between headlands",
+        "story": "Wooded headlands shelter the waters of Oshoro Bay. The city lists it among its representative landscapes, with sunset changing the colors of the headlands and the inlet. The surrounding area also preserves archaeological sites including the Oshoro Stone Circle."
+      }
+    },
+    {
+      "id": "ranshima",
+      "coordinates": [
+        140.853222,
+        43.199833
+      ],
+      "thumbnail": "ranshima-thumb.webp",
+      "photos": [
+        "ranshima"
+      ],
+      "source": "https://www.city.otaru.lg.jp/docs/2020102700101/",
+      "zh-Hant": {
+        "name": "蘭島海水浴場",
+        "type": "沙灘風景",
+        "subtitle": "北海道早期的海水浴場",
+        "story": "蘭島的沙灘面向開闊海面，與鄰近忍路灣的狹長地形形成對照。這裡是北海道海水浴早期發展的地點之一。昔日海水浴興起，地方也隨之發展出別墅區。"
+      },
+      "ja": {
+        "name": "蘭島海水浴場",
+        "type": "砂浜の風景",
+        "subtitle": "北海道の海水浴の歴史",
+        "story": "蘭島の砂浜は開けた海に面し、細長い忍路湾とは異なる景色を見せます。北海道で早くから海水浴が行われた場所の一つで、海水浴が広まるにつれて周辺には別荘地も開かれました。"
+      },
+      "en": {
+        "name": "Ranshima Beach",
+        "type": "Beach scenery",
+        "subtitle": "An early Hokkaido bathing beach",
+        "story": "Ranshima opens to a broad sandy shore beside the narrower Oshoro inlet. It was one of the early sites for sea bathing in Hokkaido. As beach visits grew in popularity, summer houses were built in the neighborhood."
+      }
+    }
+  ]
+}

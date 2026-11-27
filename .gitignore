@@ -1,0 +1,7 @@
+# 本機工具和 Pages 工作流程的暫存產物。
+node_modules/
+_site/
+__pycache__/
+.DS_Store
+
+map-sources/

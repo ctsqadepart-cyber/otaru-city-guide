@@ -1,0 +1,14 @@
+{
+  "name": "otaru-canal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "北海道小樽運河的靜態沉浸式旅遊網站",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

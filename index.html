@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <!-- 使用相對路徑支援 GitHub Pages 的專案子路徑。 -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101419">
+  <meta name="description" content="北海道小樽全區互動導覽。從運河和堺町到祝津、天狗山、朝里與西海岸，探索實地照片、3D 地圖和語音導覽。">
+  <title>北海道小樽｜OTARU GUIDE</title>
+  <link rel="icon" href="./assets/favicon.svg">
+  <link rel="stylesheet" href="./src/styles.css">
+  <script type="importmap">{"imports":{"three":"./assets/vendor/three.module.js"}}</script>
+  <script type="module" src="./src/app.js"></script>
+</head>
+<body>
+  <!-- 全站共用的線條圖示，裝飾圖示交由相鄰文字提供無障礙名稱。 -->
+  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-waves" viewBox="0 0 24 24"><path d="M2 7c3.3 0 3.3-2.5 6.7-2.5C12 4.5 12 7 15.3 7c3.4 0 3.4-2.5 6.7-2.5M2 13c3.3 0 3.3-2.5 6.7-2.5 3.3 0 3.3 2.5 6.6 2.5 3.4 0 3.4-2.5 6.7-2.5M2 19c3.3 0 3.3-2.5 6.7-2.5 3.3 0 3.3 2.5 6.6 2.5 3.4 0 3.4-2.5 6.7-2.5"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 5-8 10-8 10S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20.9 13.4A9 9 0 0 1 10.6 3.1 9 9 0 1 0 20.9 13.4Z"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-left" viewBox="0 0 24 24"><path d="m15 6-6 6 6 6"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m8 5 12 7-12 7Z" fill="currentColor" stroke-width="1"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M9 5v14m6-14v14" stroke-width="3"/></symbol>
+    <symbol id="i-stop" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2" fill="currentColor"/></symbol>
+    <symbol id="i-photo" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="8.5" cy="9" r="1.4"/><path d="m4 17 5-4 3 2 4-5 5 5"/></symbol>
+    <symbol id="i-cube" viewBox="0 0 24 24"><path d="m12 2 9 5v10l-9 5-9-5V7l9-5Zm0 10 9-5M3 7l9 5v10"/></symbol>
+    <symbol id="i-full" viewBox="0 0 24 24"><path d="M8 4H4v4m12-4h4v4M4 16v4h4m12-4v4h-4"/></symbol>
+    <symbol id="i-exit" viewBox="0 0 24 24"><path d="M4 8h4V4m12 4h-4V4M8 20v-4H4m12 4v-4h4"/></symbol>
+    <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m16.5 7.5-2.8 6.2-6.2 2.8 2.8-6.2 6.2-2.8Z"/></symbol>
+    <symbol id="i-plane" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4 20-7ZM11 13l5-5"/></symbol>
+    <symbol id="i-headphones" viewBox="0 0 24 24"><path d="M4 14v-3a8 8 0 1 1 16 0v3"/><rect x="3" y="13" width="5" height="7" rx="2"/><rect x="16" y="13" width="5" height="7" rx="2"/></symbol>
+    <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="6" r="2.5"/><path d="M8.5 18h8a3 3 0 0 0 0-6h-9a3 3 0 0 1 0-6h8"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M5 12h14M12 5v14"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5m0-8h.01"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 19V5a2 2 0 0 1 2-2h13v18H6a2 2 0 0 1 0-4h13M8 7h7m-7 4h7"/></symbol>
+  </svg>
+  <a class="skip" href="#main" data-t="skip">跳到主要內容</a>
+  <header class="header">
+    <div class="header-inner shell">
+      <a class="brand" href="#main" aria-label="Otaru Guide">
+        <span class="brand-mark"><svg class="icon"><use href="#i-waves"/></svg></span>
+        <span class="brand-type">OTARU GUIDE <small data-t="brand">小樽・沉浸探索</small></span>
+      </a>
+      <nav class="nav" data-label="navigation">
+        <a class="nav-active" href="#explore" data-t="navExplore">探索小樽</a>
+        <a href="#itinerary" data-t="navRoute">景點與路線</a>
+        <button type="button" data-about data-t="about">關於</button>
+      </nav>
+      <div class="header-actions">
+        <label class="language"><svg class="icon"><use href="#i-globe"/></svg>
+          <select id="language" data-label="language"><option value="zh-Hant">繁體中文</option><option value="ja">日本語</option><option value="en">English</option></select>
+          <svg class="icon chevron"><use href="#i-down"/></svg>
+        </label>
+        <button class="icon-button theme-button" type="button" id="night" data-label="night" aria-pressed="false"><svg class="icon"><use href="#i-moon"/></svg></button>
+      </div>
+    </div>
+  </header>
+  <main class="shell" id="main">
+    <!-- 直接以檔案開啟時，使用一般指令碼顯示啟動方式。 -->
+    <div id="local-start-help" class="local-start-help" role="status" hidden>
+      <strong>請先啟動網站，才能使用互動功能。</strong>
+      <p>Windows 請先解壓縮整個專案，再雙擊 <code>啟動網站.cmd</code>。也可在專案資料夾執行 <code>npm start</code>，並開啟 <a href="http://127.0.0.1:5173/">http://127.0.0.1:5173/</a>。</p>
+    </div>
+    <script>
+      // file 協定會阻擋 ES 模組與 JSON 請求，因此直接提示改用本機 HTTP。
+      if (location.protocol === 'file:') document.getElementById('local-start-help').hidden = false;
+    </script>
+    <section class="intro" id="explore" aria-labelledby="title">
+      <div>
+        <p class="eyebrow"><svg class="icon"><use href="#i-pin"/></svg><span data-t="location">日本・北海道</span><span class="eyebrow-rule"></span><span lang="en">HOKKAIDO, JAPAN</span></p>
+        <h1 id="title" data-t="title">北海道・小樽</h1>
+        <p class="intro-copy" data-t="intro">從煤氣燈下的運河出發，探訪港町老街、山上展望台和日本海沿岸。</p>
+      </div>
+      <button id="tour-button" class="button primary" type="button"><svg class="icon"><use href="#i-play"/></svg><span data-t="startTour">開始導覽</span></button>
+    </section>
+
+    <!-- 選取區域時同步更新景點清單與地圖範圍。 -->
+    <section class="area-bar" data-label="areaSelector" role="region">
+      <h2 data-t="areas">探索區域</h2>
+      <div class="area-options" id="area-options" data-label="areaSelector" role="group"></div>
+    </section>
+
+    <!-- 街景與地圖共用攝影機控制、景點資訊與全螢幕容器。 -->
+    <section class="experience" id="experience" data-mode="photo" data-label="experience">
+      <div class="viewer" id="viewer">
+        <div class="photo-layer" id="photo-layer" tabindex="0" data-label="photoHelp">
+          <img class="scene-photo" id="scene-photo" src="./assets/photos/asakusa.webp" alt="小樽運河藍調時刻，倉庫燈光倒映水面" fetchpriority="high" draggable="false">
+        </div>
+        <div class="map-layer" id="map-layer" hidden>
+          <div id="map-render" class="map-render" tabindex="0" data-label="mapHelp"></div>
+          <div id="map-markers" class="map-markers"></div>
+          <output id="map-status" class="map-status" aria-live="polite"></output>
+        </div>
+        <div class="view-tabs" data-label="viewMode" role="group">
+          <button id="photo-mode" type="button" aria-pressed="true"><svg class="icon"><use href="#i-photo"/></svg><span data-t="street">街景</span></button>
+          <button id="map-mode" type="button" aria-pressed="false"><svg class="icon"><use href="#i-cube"/></svg><span data-t="map">3D 地圖</span></button>
+        </div>
+        <div class="viewer-actions">
+          <button id="fullscreen" class="viewer-button" type="button" data-label="fullscreen" aria-pressed="false"><svg class="icon"><use href="#i-full"/></svg></button>
+          <button id="recenter" class="viewer-button" type="button" data-label="resetView"><svg class="icon"><use href="#i-compass"/></svg></button>
+          <div class="zoom">
+            <button id="zoom-in" class="viewer-button" type="button" data-label="zoomIn"><svg class="icon"><use href="#i-plus"/></svg></button>
+            <button id="zoom-out" class="viewer-button" type="button" data-label="zoomOut"><svg class="icon"><use href="#i-minus"/></svg></button>
+          </div>
+        </div>
+        <a id="scene-credit" class="scene-credit" target="_blank" rel="noopener noreferrer"></a>
+        <a id="map-credit" class="scene-credit" target="_blank" rel="noopener noreferrer" href="https://www.openstreetmap.org/copyright" hidden>© OpenStreetMap contributors</a>
+        <div class="photo-caption" id="photo-caption">
+          <span class="caption-label"><svg class="icon"><use href="#i-pin"/></svg><span data-t="onLocation">目前視角</span></span>
+          <strong id="caption-name">淺草橋</strong>
+          <button class="photo-count" type="button" id="next-photo" data-label="nextPhoto"><svg class="icon"><use href="#i-photo"/></svg><span id="photo-position"></span></button>
+        </div>
+        <button class="mini-map" id="mini-map-button" type="button" data-label="openMap">
+          <canvas id="mini-map" aria-hidden="true"></canvas>
+          <small class="mini-attribution" aria-hidden="true">© OSM</small>
+          <span><svg class="icon"><use href="#i-cube"/></svg><span data-t="map">3D 地圖</span></span>
+        </button>
+        <div id="map-tools" class="map-tools" hidden>
+          <button id="fly" class="viewer-button fly-button" type="button" aria-pressed="false"><svg class="icon"><use href="#i-plane"/></svg><span data-t="fly">自由飛行</span></button>
+          <div id="flight-pad" class="flight-pad" hidden>
+            <button class="viewer-button fly-forward" type="button" data-move="forward" data-label="flyForward"><svg class="icon"><use href="#i-down"/></svg></button>
+            <button class="viewer-button fly-back" type="button" data-move="back" data-label="flyBack"><svg class="icon"><use href="#i-down"/></svg></button>
+            <button class="viewer-button fly-left" type="button" data-move="left" data-label="flyLeft"><svg class="icon"><use href="#i-left"/></svg></button>
+            <button class="viewer-button fly-right" type="button" data-move="right" data-label="flyRight"><svg class="icon"><use href="#i-right"/></svg></button>
+            <button class="viewer-button" type="button" data-move="up" data-label="flyUp"><svg class="icon"><use href="#i-plus"/></svg></button>
+            <button class="viewer-button" type="button" data-move="down" data-label="flyDown"><svg class="icon"><use href="#i-minus"/></svg></button>
+          </div>
+        </div>
+        <div id="tour-bar" class="tour-bar" hidden>
+          <button id="tour-pause" type="button" class="viewer-button" data-label="pauseTour"><svg class="icon"><use href="#i-pause"/></svg></button>
+          <div class="tour-progress"><span id="tour-status"></span><progress id="progress" value="0" max="1"></progress></div>
+          <button id="tour-stop" type="button" class="viewer-button" data-label="stopTour"><svg class="icon"><use href="#i-stop"/></svg></button>
+        </div>
+      </div>
+      <aside class="details" aria-labelledby="spot-name">
+        <div class="details-top">
+          <div class="stop-kicker"><span class="kicker-dot"></span><span data-t="stop">景點</span><span id="stop-number">01 / 04</span></div>
+          <span class="category" id="category"></span>
+        </div>
+        <div class="stop-copy">
+          <h2 id="spot-name">淺草橋</h2>
+          <p class="spot-translation" id="spot-translation" lang="en">Asakusa Bridge</p>
+          <p class="spot-story" id="spot-story"></p>
+          <a class="history-link" id="history-link" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#i-book"/></svg><span data-t="history">歷史資料</span></a>
+        </div>
+        <div class="details-bottom">
+          <button id="voice" type="button" class="button voice-button"><svg class="icon"><use href="#i-headphones"/></svg><span data-t="voice">語音導覽</span></button>
+          <div class="stop-nav">
+            <button id="prev-stop" class="icon-button" type="button" data-label="prevStop"><svg class="icon"><use href="#i-left"/></svg></button>
+            <button id="next-stop" class="icon-button" type="button" data-label="nextStop"><svg class="icon"><use href="#i-right"/></svg></button>
+          </div>
+        </div>
+        <output id="voice-status" class="voice-status" hidden></output>
+        <p id="announcement" class="sr-only" role="status"></p>
+      </aside>
+    </section>
+
+    <section class="itinerary" id="itinerary" aria-labelledby="route-title">
+      <div class="section-heading">
+        <h2 id="route-title"><svg class="icon"><use href="#i-route"/></svg><span id="route-heading">小樽全區景點</span></h2>
+        <div class="route-meta">
+          <span><svg class="icon"><use href="#i-pin"/></svg><span id="route-count">4 個景點</span></span>
+          <span id="route-kind"><svg class="icon"><use href="#i-route"/></svg><span></span></span>
+        </div>
+      </div>
+      <ol id="stops" class="stops"></ol>
+    </section>
+  </main>
+  <footer class="shell footer">
+    <span>OTARU GUIDE <span class="footer-separator">/</span> <span data-t="brand">小樽・沉浸探索</span></span>
+    <button type="button" data-about data-t="sources">關於與資料來源</button>
+  </footer>
+
+  <dialog id="about-dialog" aria-labelledby="about-title">
+    <div class="dialog-heading"><h2 id="about-title" data-t="sources">關於與資料來源</h2><button id="close-about" class="icon-button" type="button" data-label="close"><svg class="icon"><use href="#i-close"/></svg></button></div>
+    <p data-t="aboutDescription"></p>
+    <ul class="about-links" id="about-links"></ul>
+    <h3 data-t="photoCredits">照片授權</h3>
+    <ul class="about-links" id="photo-credits"></ul>
+  </dialog>
+  <noscript><p class="shell">請啟用 JavaScript 以操作小樽全區導覽。Enable JavaScript to use the Otaru guide.</p></noscript>
+</body>
+</html>
